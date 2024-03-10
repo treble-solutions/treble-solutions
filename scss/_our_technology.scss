@@ -1,0 +1,65 @@
+.our_technology_area {
+    background-color: #4FB4A8;
+    height: 820px;
+
+    @media #{$mobile_device} {
+        height: 1180px;
+    }
+
+    .background_img {
+        position: relative;
+        top: 15px;
+        width: 800px;
+
+        @media #{$mobile_device} {
+            top: 10px;
+            width: 300px;
+        }
+    }
+
+    padding-top: 50px;
+    @media #{$mobile_device} {
+        padding-top: 10px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 45px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        @media #{$mobile_device} {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+    }
+
+    p {
+        color: white;
+        &.bold {
+            font-weight: 500;
+        }
+    }
+    img {
+        display: block;
+        margin: auto;
+        width: 300px;
+        @media #{$mobile_device} {
+            width: 200px;
+        }
+    }
+
+    .reliable_title {
+        padding-top: 50px;
+    }
+
+    .reliable_description {
+        text-align: center;
+        @media #{$mobile_device} {
+            padding: 0px 40px;
+        }
+        
+    }
+}
+
+  

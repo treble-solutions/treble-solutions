@@ -1,0 +1,149 @@
+.our_services_area{
+    // background-image: url(../img/banner/department.jpg);
+    // background-repeat: no-repeat;
+    // background-position: center center;
+    // background-size: cover;
+    padding-top: 0px;
+    padding-bottom: 200px;
+
+    @media #{$mobile_device} {
+        padding-bottom: 80px;
+    }
+
+    .speech {
+        opacity: 20%;
+        &.speech-left {
+            content: url(../img//treble//speech-left.png);
+            position: relative;
+    
+            &.cusomter-service {
+                width: 93px;
+                bottom: 50px;
+                left: 140px;
+            }
+        }
+        
+        &.speech-right {
+            content: url(../img//treble//speech-right.png);
+            position: relative;
+            &.cusomter-service {
+                left: 1000px;
+                bottom: 320px;
+                width: 60px;
+            }
+        }
+    }
+    
+
+    h3 {
+        color: #4FB4A8;
+        font-size: 40px;
+    }
+
+    .our_service_section_title {
+        margin-left: -136px;
+        margin-right: -134px;
+        color: white;
+    }
+
+    .section_title {
+        margin: auto;
+        display: block;
+        & h3 {
+            color: white;
+        }
+    }
+
+    p{
+        position: relative;
+        @media #{$mobile_device} {
+            padding: 0px 10px;
+        }
+    }
+
+    h3 {
+        padding-bottom: 0px;
+        @media #{$mobile_device} {
+            display: block;
+            margin: auto;
+        }
+    }
+
+    #technical_support_description {
+        position: relative;
+        @media #{$mobile_device} {
+            top: 220px;
+        }
+    }
+
+    #technical_support_img {
+        @media #{$mobile_device} {
+            bottom: 260px;
+        }
+    }
+    
+    #customer_service_description{
+        position: relative;
+        @media #{$mobile_device} {
+            top: 220px;
+        }
+    }
+
+    #customer_service_img {
+        @media #{$mobile_device} {
+            bottom: 330px;
+        }
+    }
+
+    .customer_service {
+        
+        @media #{$mobile_device} {
+            padding-bottom: 20px;
+        }
+
+        .circle {
+            background-color: #4FB4A8;
+            width: 208px;
+            height: 200px;
+            border-radius: 50%;
+            position: relative;
+            @media #{$mobile_device} {
+                display: block;
+                margin: auto;
+            }
+        }
+        img {
+            width: 240px;
+            bottom: 40px;
+            position: relative;
+            border-radius: 50%;
+            right: 17px;
+        }
+        .debt_collection {
+            width: 300px;
+            right: 50px;
+            top: 14px;
+        }
+        .technical_support {
+            right: 4px;
+            bottom: 38px;
+            width: 250px;
+            border-top-left-radius: 0%;
+        }
+        .sales {
+            top: 34px;
+            width: 263px;
+            right: -6px;
+        }
+    }
+   
+    
+    .row.custom_align{
+        margin-bottom: 60px;
+        background-color: #5C5B5D;
+        color: white;
+        padding-left: 0px;
+    }
+}
+
+  

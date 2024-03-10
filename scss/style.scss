@@ -1,0 +1,64 @@
+
+@import 'varriable.scss';
+@import 'mixins.scss';
+@import 'extend';
+@import 'responsive.scss';
+@import 'theme-default.scss';
+@import 'btn';
+@import 'section_title';
+@import 'slick-nav';
+
+
+
+// header
+@import 'header';
+
+// slider
+@import 'slider';
+
+// about
+@import '_about';
+
+// about
+@import 'offers';
+// about
+@import 'footer';
+
+@import 'bradcam';
+
+@import 'our_services';
+
+@import 'tesmonial';
+
+@import 'service';
+
+@import 'how_can_we_assist';
+
+@import 'emergency_contact';
+
+@import '_quality.scss';
+
+@import '_book_apontment';
+
+@import '_our_agents';
+
+@import '_our_technology';
+
+@import '_reliable';
+
+
+// other pages default
+
+// contact
+@import 'contact';
+
+// elements
+@import 'elements.scss';
+
+// blog
+@import 'blog';
+
+
+// blog part
+@import 'blog_part';
+

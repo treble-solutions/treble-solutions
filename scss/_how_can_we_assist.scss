@@ -1,0 +1,52 @@
+.how_can_we_assist_area{
+    padding-bottom: 130px;
+    @media #{$mobile_device} {
+        padding-bottom: 40px;
+    }
+
+    .how_can_we_assist_title {
+        margin: 0px -451px;
+        margin-bottom: 60px;
+        background-color: #5C5B5D;
+        color: white;
+        padding-left: 0px;
+    }
+
+    h3 {
+        color: #4FB4A8;
+        @media #{$mobile_device} {
+            padding: 0px 10px;
+        }
+    }
+
+    p {
+        @media #{$mobile_device} {
+            padding: 0px 10px;
+        }
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 80px;
+        @media #{$mobile_device} {
+            width: 60px;
+            padding-top: 10px;
+        }
+    }
+    img.one {
+        width: 50px;
+        @media #{$mobile_device} {
+            width: 40px;
+        }
+    }
+    
+    img.ten {
+        width: 115px;
+        @media #{$mobile_device} {
+            width: 100px;
+        }
+    }
+}
+
+  
